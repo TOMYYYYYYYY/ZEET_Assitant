@@ -71,7 +71,7 @@ def generate_response(message_body, wa_id, name):
 # --------------------------------------------------------------
 def run_assistant(thread):
     # Retrieve the Assistant
-    assistant = client.beta.assistants.retrieve("asst_U4s4fpAKjkXHzRxa3NrynaCU")
+    assistant = client.beta.assistants.retrieve("asst_gc6l0Zkdea1mAurQGe4FRUo1")
 
     # Run the assistant
     run = client.beta.threads.runs.create(
