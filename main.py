@@ -106,6 +106,7 @@ def receive_message():
     data = request.get_json()
     message = data.get('message')
     id = data.get('id')
+    print(f"message retrieve: {message}")
 
     response_data = generate_response(message, id, "John")
     formatted_response = {
